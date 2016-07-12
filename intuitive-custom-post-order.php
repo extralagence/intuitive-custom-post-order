@@ -15,7 +15,7 @@
 /**
  * Define
  */
-include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+//include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if ( function_exists( 'is_plugin_active' ) && is_plugin_active( 'intuitive-custom-post-order/intuitive-custom-post-order.php' ) ) {
 	define( 'HICPO_URL', plugins_url( '', __FILE__ ) );
 	define( 'HICPO_DIR', plugin_dir_path( __FILE__ ) );
