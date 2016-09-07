@@ -110,7 +110,7 @@ class Hicpo
 	
 	function admin_page()
 	{
-		require HICPO_DIR.'admin/settings.php';
+		require HICPO_DIR.'/admin/settings.php';
 	}
 
 	function _check_load_script_css()
